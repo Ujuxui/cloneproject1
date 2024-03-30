@@ -1,0 +1,56 @@
+<ProductCard 
+     id="1" 
+     location="Vadholi, India" 
+     distance="587 kilometres away" 
+     dates="12 to 17 Mar" 
+     price="Rs. 12,036 night"
+     />
+     <ProductCard 
+     id="2" 
+     location="Parra, India" 
+     distance="540 kilometres away" 
+     dates="13 to 18 Mar" 
+     price="Rs. 1,09,553 night"
+     />
+     <ProductCard 
+     id="3" 
+     location="Colva, India" 
+     distance="539 kilometres away" 
+     dates="1 to 6 Apr" 
+     price="Rs. 3,424 night"
+     />
+     <ProductCard 
+     id="4" 
+     location="Marna, India" 
+     distance="538 kilometres away" 
+     dates="26 to 31 Mar" 
+     price="Rs. 47,244  night"
+     />
+     <ProductCard 
+     id="5" 
+     location="Igatpuri, India" 
+     distance="564 kilometres away" 
+     dates="17 to 22 Mar" 
+     price="Rs. 61,900 night"
+     />
+     <ProductCard
+     id="6" 
+     location="Calangute, India" 
+     distance="541 kilometres away" 
+     dates="2 to 7 Apr" 
+     price="Rs. 2,73,882 night"
+     />
+     <ProductCard 
+     id="7"
+     location="Assagao, India" 
+     distance="538 kilometres away" 
+     dates="12 to 17 Mar" 
+     price="Rs. 55,000 night"
+     />
+     <ProductCard
+     id="8" 
+     location="Calangute, India" 
+     distance="542 kilometres away" 
+     dates="12 to 17 Mar" 
+     price="Rs. 7,760 night"
+     />

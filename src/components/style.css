@@ -1,0 +1,228 @@
+
+.searchbar {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.searchbar:hover {
+ box-shadow: 0 1px 2px rgb(0 0 0 / 15%), 0 4px 12px rgb(0 0 0 / 10%);
+ transition: all 0.2s;
+ cursor: pointer;
+}
+
+.airbnbyourhome {
+  padding: 1rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.airbnbyourhome:hover {
+  background-color: var(#717);
+}
+
+.basicmenu {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.basicmenu:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 15%), 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+.filterbox {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.filterbox:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 15%), 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+.filterbox1 {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+.filterbox1:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 15%), 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+.icon-wrapper {
+ flex-direction: column;
+ margin: 1px;
+ border-bottom: 1px solid #ffff;
+}
+.icon-wrapper:hover {
+opacity: 100;
+border-bottom: 1px solid #111111;
+}
+
+.heart-icon {
+  display: block;
+  color:azure;
+  fill: rgba(0, 0, 0, 0.5);
+  }
+
+
+.separator {
+  width: .5px;
+  height: 30px;
+  background-color: #7c7b7b;
+  margin: 0 10px;
+  opacity: 35%;
+}
+
+.maintab:hover {
+  cursor: pointer;
+  font-weight: 400;
+  opacity: .9;
+  color: black;
+  padding-left: 0.75rem; 
+  padding-right: 0.75rem;
+  padding-top: 0.25rem; 
+  padding-bottom: 0.25rem; 
+  border-radius: 9999px; /* rounded-full */
+  background-color: #eaebed;
+}
+
+.experiencestab:hover {
+  cursor: pointer;
+  font-weight: 400;
+  opacity: .9;
+  color: black;
+  padding-left: 0.75rem; 
+  padding-right: 0.75rem;
+  padding-top: 0.25rem; 
+  padding-bottom: 0.25rem; 
+  border-radius: 9999px; /* rounded-full */
+  background-color: #eaebed;
+}
+
+.onexperiencestab:hover {
+  cursor: pointer;
+  font-weight: 400;
+  opacity: .9;
+  color: black;
+  padding-left: 0.75rem; 
+  padding-right: 0.75rem;
+  padding-top: 0.25rem; 
+  padding-bottom: 0.25rem; 
+  border-radius: 9999px; /* rounded-full */
+  background-color: #eaebed;
+}
+
+.aa {
+  background-image: url("https://ik.imagekit.io/jkay012024/air/airexp111.webp?updatedAt=1711279265700");
+  background-repeat: no-repeat;
+  height: 330px;
+  min-width: 580px;
+  background-size:cover;
+  border-radius: 10px;
+}
+
+.bb {
+  background-image: url("https://ik.imagekit.io/jkay012024/air/airexp1.webp?updatedAt=1711020376611");
+  background-repeat: no-repeat;
+  height: 330px;
+  min-width: 580px;
+  background-size:cover;
+  border-radius: 10px;
+}
+
+.cc {
+  background-image: url("https://ik.imagekit.io/jkay012024/air/airexp12.webp?updatedAt=1711020376617");
+  background-repeat: no-repeat;
+  height: 330px;
+  min-width: 580px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.series1 {
+  display: flex;
+  height: 270px;
+  min-width: 200px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.loadmore:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.showmore:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.staricon {
+  height: 0;
+  min-width: 1px;
+}
+
+.filter-div {
+font-family: 'Circular', sans-serif;
+}
+
+.bigcontainer {
+ max-width:fit-content;
+}
+
+.container {
+  display: flex;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.likeicon {
+  margin-left: auto;
+}
+
+.border-thick {
+  border-width: 1px;
+  border-color: #111111;
+}
+
+.navbar {
+  display: flex;
+  width: 100%; 
+
+}
+
+
+.mobile-search-bar {
+  display: none;
+}
+
+.bottomnav {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .bottomnav {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid var(--grey);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+  }
+
+  .mainheader {
+    display: none; 
+  }
+
+  .searchbar {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .mobile-search-bar {
+    display: flex;
+    width: 80%; 
+    margin-top: 20px;
+  }
+}
