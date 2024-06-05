@@ -1,8 +1,22 @@
-# React + Vite
+# Airbnb Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-Currently, two official plugins are available:
+## Project Overview
+This project is a clone of the Airbnb website. It aims to replicate the core functionalities of Airbnb, including searching for listings, viewing listing details, and booking stays. This project was built to practice and demonstrate skills in web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- User Authentication (Sign Up, Log In, Log Out)
+- Browse and Search Listings
+- View Listing Details
+- Booking Functionality
+- Responsive Design
+
+## Technologies Used
+- **Frontend**: React, Tailwind CSS
+- **Other Tools**: Figma (for design mockups), GitHub (for version control)
+
+
